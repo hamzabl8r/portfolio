@@ -2,6 +2,7 @@ import React from 'react';
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin ,FaGithub , FaFacebook } from 'react-icons/fa';
 
 function Contact() {
+  
   return (
     <div className="section">
       <h2 className="section-title">Get In Touch</h2>
@@ -35,7 +36,7 @@ function Contact() {
           
         </div>
 
-        <form className="contact-form">
+        <form className="contact-form" action="https://formsubmit.co/hamzabeji001@gmail.com" method='POST'>
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" required />
