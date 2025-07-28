@@ -118,9 +118,8 @@ body {
   color: var(--secondary-text);
   line-height: 1.6;
 }
-.cta{
+.cta {
   display: flex;
-
 }
 .cta-button {
   display: inline-block;
@@ -133,13 +132,11 @@ body {
   margin-top: 2rem;
   margin-left: 20px;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  
 }
-.cta-button a{
+.cta-button a {
   text-decoration: none;
   color: #121212;
 }
-
 
 .cta-button:hover {
   background: var(--accent-hover);
@@ -190,10 +187,15 @@ body {
 .skills-container {
   width: 100%;
   max-width: 800px;
+  background-color: var(--card-color);
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 1100px;
 }
 
 .skill-item {
   margin-bottom: 1.5rem;
+  
 }
 
 .skill-name {
@@ -215,13 +217,14 @@ body {
   border-radius: 10px;
   animation: fillBar 1.5s ease-out forwards;
 }
-
+.level{
+  color:red;
+}
 @keyframes fillBar {
   from {
     width: 0;
   }
   to {
-    /* Width is set inline */
   }
 }
 
@@ -269,8 +272,9 @@ body {
   border-radius: 5px;
   width: 150px;
   height: 50px;
+  color: #fff;
   background-color: #1e293b;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(233, 233, 233, 0.2);
 }
 
 .project-btn a {
@@ -505,4 +509,44 @@ body {
   .form-group textarea {
     font-size: 0.9rem;
   }
+}
+
+.AboutM {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Skill {
+  margin: 100px auto ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  background-color: var(--card-color);
+  padding: 3rem;
+  border-radius: 12px;
+  max-width: 1100px;
+}
+.sk {
+  width: 100%;
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+}
+.first,
+.Second {
+  width: 100%;
+}
+.Projectss{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  justify-content: center;
+
 }

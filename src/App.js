@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import './App.css';
 
 function App() {
-  return (
+  return (<>
     <Router>
       <div className="App">
         <Navbar />
@@ -24,6 +24,7 @@ function App() {
         </main>
       </div>
     </Router>
+    </>
   );
 }
 
