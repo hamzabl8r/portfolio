@@ -6,6 +6,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Cv from '../assets/cv_en.pdf'
+import NewsLetter from "./NewsLetter";
 
 function Home() {
   return (
@@ -50,6 +51,9 @@ function Home() {
     </div>
     <div className='Projectss'>
       <Projects />
+    </div>
+    <div className='News'>
+      <NewsLetter />
     </div>
     </>
   );
