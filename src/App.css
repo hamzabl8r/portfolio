@@ -118,7 +118,10 @@ body {
   color: var(--secondary-text);
   line-height: 1.6;
 }
+.cta{
+  display: flex;
 
+}
 .cta-button {
   display: inline-block;
   background: var(--accent-color);
@@ -128,8 +131,15 @@ body {
   text-decoration: none;
   font-weight: 700;
   margin-top: 2rem;
+  margin-left: 20px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  
 }
+.cta-button a{
+  text-decoration: none;
+  color: #121212;
+}
+
 
 .cta-button:hover {
   background: var(--accent-hover);

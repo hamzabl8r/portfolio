@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, tech,link }) => (
       ))}
     </div>
     <div >
-    <button className="project-btn"><a href={link}> View Project</a></button>
+    <a href={link} ><button className="project-btn"> View Project</button></a>
     </div>
   </div>
 );
@@ -22,14 +22,14 @@ function Projects() {
       description:
         "A full-stack web application for an online store, focusing on database integration and web technologies.",
       tech: [ "JavaScript", "HTML", "CSS"],
-      link :"calculator-pi-virid-30.vercel.app"
+      link :"https://calculator-pi-virid-30.vercel.app"
     },
     {
       title: "X-O-Game",
       description:
         "A full-stack web application for an online store, focusing on database integration and web technologies.",
       tech: [ "JavaScript", "HTML", "CSS"],
-      link :"x-o-game-three.vercel.app"
+      link :"https://x-o-game-three.vercel.app"
     },
     
   ];

@@ -27,9 +27,12 @@ function Home() {
           Passionate about building efficient and innovative software solutions
           from concept to deployment.
         </p>
+        <div className="cta">
         <Link to="/projects" className="cta-button">
           View My Work
         </Link>
+        <a href="https://drive.google.com/file/d/1P1Juj7rYHK9ABXRbMpeRfKLDJE_MrQfC/view?usp=drive_link"><button className="cta-button">CV</button></a>
+        </div>
       </div>
       <div className="pics">
         <img src={myImage} alt="Hamza Beji" className="pic" />
